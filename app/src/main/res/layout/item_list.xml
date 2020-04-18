@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+
+
+    <ImageView
+        android:id="@+id/img_item_l_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_list_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="瑞可爷爷蛋糕 蜂蜜蛋糕 蛋糕很好吃很好吃"
+        android:layout_toRightOf="@id/img_item_l_icon"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="12dp"
+        android:layout_alignTop="@id/img_item_l_icon"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_list_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥17.00"
+        android:textSize="14sp"
+        android:textColor="@color/red"
+        android:layout_toRightOf="@id/img_item_l_icon"
+        android:layout_alignBottom="@id/img_item_l_icon"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@mipmap/dou"
+        android:drawableRight="@mipmap/tab"
+        android:drawablePadding="7dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_l_yuan_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="淘宝价格￥136.00"
+        android:textSize="10sp"
+        android:drawableLeft="@mipmap/tb"
+        android:drawablePadding="7dp"
+        android:layout_toRightOf="@id/img_item_l_icon"
+        android:layout_alignBottom="@id/img_item_l_icon"
+        android:layout_marginBottom="21dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="再返￥6"
+        android:textSize="8sp"
+        android:textColor="@color/red"
+        android:background="@drawable/box_stock_red"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@id/tv_item_l_yuan_price"
+        android:padding="3dp"
+        android:layout_marginRight="12dp"
+        />
+
+</RelativeLayout>

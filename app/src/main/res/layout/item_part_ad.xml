@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_item_part_ad"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:scaleType="fitXY"/>
+
+    <com.example.administrator.testshop.view.ChildViewPager
+        android:id="@+id/viewpager_ad"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:visibility="gone"/>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tbl_share_ad"
+        android:layout_width="40dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        app:tabIndicatorColor="#CD661D"
+        app:tabSelectedTextColor="#1A1A1A"
+        app:tabTextColor="#B3B3B3"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_part_con1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:text="人气推荐"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/tv_item_part_con2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_999"
+        android:text="自购省钱"
+        android:textSize="14sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="7dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TestShop</string>
+
+    <string name="jd">京东</string>
+    <string name="jd_buy">京东购物省钱</string>
+    <string name="tb">淘宝</string>
+    <string name="tb_buy">淘宝购物省钱</string>
+    <string name="share_make">分享赚钱</string>
+    <string name="share_make_">自购省分享赚</string>
+    <string name="renqi_tip">人气推荐榜</string>
+    <string name="share_tip">搜索商品/商品链接/淘口令</string>
+    <string name="phone">手机</string>
+    <string name="biao">钟表</string>
+    <string name="muying">母婴生活</string>
+    <string name="shuma">数码产品</string>
+    <string name="huwailvyou">户外旅游</string>
+    <string name="jiayong">家用电器</string>
+    <string name="chuju">厨具</string>
+    <string name="meizhuang">美妆护肤</string>
+    <string name="car">汽车用品</string>
+    <string name="chongwu">宠物生活</string>
+
+    <string name="pri_tab">￥</string>
+
+
+
+
+</resources>
